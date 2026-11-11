@@ -1,0 +1,9 @@
+# استقرار Cloudflare Pages
+name = "miliconfig-pages"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-11-06"
+
+[vars]
+BRAND = "miliconfig"
+
+# در Cloudflare Pages، دیتابیس D1 را از مسیر Settings -> Functions -> D1 database bindings با نام DB متصل کنید.

@@ -1,0 +1,8 @@
+# Local secrets (Cloudflare API credentials used for deploys)
+.env
+.env.local
+.env.*.local
+
+# Wrangler / tooling artifacts
+.wrangler/
+node_modules/

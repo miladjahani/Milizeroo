@@ -1,0 +1,19 @@
+# استقرار Cloudflare Workers
+name = "miliconfig-worker"
+main = "_worker.js"
+compatibility_date = "2024-11-06"
+
+[vars]
+BRAND = "miliconfig"
+
+[observability]
+enabled = true
+
+# برای اتصال از طریق Wrangler CLI، شناسه دیتابیس D1 اکانت خودتان را وارد کنید:
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "miliconfig-db"
+# database_id = "YOUR_D1_DATABASE_ID_HERE"
+
+[triggers]
+crons = ["*/15 * * * *"]
